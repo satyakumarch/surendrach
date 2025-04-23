@@ -5,33 +5,31 @@ export const CertificatesSection = () => {
   const certificates = [
     {
       title: "Bits and Bytes of Computer Networking",
-      issuer: "Coursera",
-      link: "#",
-      logo: "/placeholder.svg"
+      issuer: "Google & Coursera",
+      description: "Comprehensive understanding of computer networking fundamentals, protocols, and architectures",
+      link: "https://coursera.org/verify/CG7M97D51764",
+      image: "/lovable-uploads/f08752d3-da31-4c65-a2ac-cd8bda2af1b5.png"
     },
     {
       title: "Introduction to Hardware and Operating Systems",
-      issuer: "Coursera",
-      link: "#",
-      logo: "/placeholder.svg"
+      issuer: "IBM & Coursera",
+      description: "In-depth knowledge of computer hardware components and operating system fundamentals",
+      link: "https://coursera.org/verify/6FYYL7K4V9C5",
+      image: "/lovable-uploads/b2be6d1c-5894-4047-ac6f-f860a54f8c5d.png"
     },
     {
       title: "Ethical Hacking Essentials (EHE)",
-      issuer: "Coursera",
-      link: "#",
-      logo: "/placeholder.svg"
+      issuer: "EC-Council & Coursera",
+      description: "Essential skills in ethical hacking, cybersecurity, and network security testing",
+      link: "https://coursera.org/verify/8YRNM6EG1R",
+      image: "/lovable-uploads/ef1bf828-633c-4057-afe3-7ac650a00518.png"
     },
     {
-      title: "Programming Fundamentals in Kotlin",
+      title: "Programming in C++: A Hands-on Introduction",
       issuer: "Coursera",
+      description: "Practical experience in C++ programming and object-oriented design principles",
       link: "#",
-      logo: "/placeholder.svg"
-    },
-    {
-      title: "Core & Advanced Java",
-      issuer: "Board Infinity",
-      link: "#",
-      logo: "/placeholder.svg"
+      image: "/lovable-uploads/f4682ceb-3f27-4d51-89e6-abf10669cce4.png"
     }
   ];
 
@@ -42,7 +40,7 @@ export const CertificatesSection = () => {
           Certificates
         </h2>
 
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {certificates.map((cert, index) => (
             <a
               href={cert.link}
@@ -53,20 +51,22 @@ export const CertificatesSection = () => {
               data-aos="fade-up"
               data-aos-delay={index * 50}
             >
-              <div className="p-6">
-                <div className="flex justify-between items-start">
-                  <div className="h-12 w-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                    <Award className="h-6 w-6 text-primary" />
-                  </div>
-                  <ExternalLink className="h-5 w-5 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div className="aspect-[4/3] mb-4 rounded-lg overflow-hidden">
+                  <img 
+                    src={cert.image} 
+                    alt={cert.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
                 
                 <h3 className="text-lg font-bold mb-1">{cert.title}</h3>
-                <p className="text-muted-foreground mb-4">Issued by {cert.issuer}</p>
+                <p className="text-muted-foreground mb-2">Issued by {cert.issuer}</p>
+                <p className="text-sm text-muted-foreground mb-4">{cert.description}</p>
                 
                 <div className="flex items-center text-primary text-sm font-medium">
                   <span>View Certificate</span>
-                  <span className="ml-1 transform translate-x-0 group-hover:translate-x-1 transition-transform">→</span>
+                  <ExternalLink className="h-4 w-4 ml-1" />
                 </div>
               </div>
             </a>
