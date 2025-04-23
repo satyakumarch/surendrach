@@ -17,7 +17,7 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center text-center" data-aos="fade-up">
           <div className="mb-8 rounded-full overflow-hidden w-48 h-48 border-4 border-primary shadow-xl">
             <img 
-              src="/lovable-uploads/2669d1f7-1fb6-4e33-a5f0-5d4d49e67910.png"
+              src="2669d1f7-1fb6-4e33-a5f0-5d4d49e67910.png"
               alt="Surendra Kumar Chaudhary"
               className="w-full h-full object-cover"
             />

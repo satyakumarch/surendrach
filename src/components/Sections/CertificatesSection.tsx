@@ -8,7 +8,7 @@ export const CertificatesSection = () => {
       issuer: "Google & Coursera",
       description: "Comprehensive understanding of computer networking fundamentals, protocols, and architectures",
       link: "https://coursera.org/verify/CG7M97D51764",
-      image: "/lovable-uploads/f08752d3-da31-4c65-a2ac-cd8bda2af1b5.png"
+      image: "f08752d3-da31-4c65-a2ac-cd8bda2af1b5.png"
     },
     
     {
@@ -16,14 +16,14 @@ export const CertificatesSection = () => {
       issuer: "Meta & Coursera",
       description: "Hands‑on fundamentals of building Android apps with Java/Kotlin, Android Studio, and common mobile paradigms.",
       ink: "/* use the exact Coursera verify URL printed on your certificate */",
-      image: "/lovable-uploads/ram.png"
+      image: "ram.png"
     },
     {
       title: "Ethical Hacking Essentials (EHE)",
       issuer: "EC‑Council & Coursera",
       description: "Core ethical‑hacking concepts: footprinting, vulnerability analysis, network scanning, enumeration, and basic exploit techniques.",
       link: "/* use the exact Coursera verify URL printed on your certificate */",
-      image: "/lovable-uploads/shyam.png"
+      image: "shyam.png"
     },
   
     
@@ -32,14 +32,14 @@ export const CertificatesSection = () => {
       issuer: "EC-Council & Coursera",
       description: "Essential skills in ethical hacking, cybersecurity, and network security testing",
       link: "https://coursera.org/verify/8YRNM6EG1R",
-      image: "/lovable-uploads/ef1bf828-633c-4057-afe3-7ac650a00518.png"
+      image: "ef1bf828-633c-4057-afe3-7ac650a00518.png"
     },
     {
       title: "Programming in C++: A Hands-on Introduction",
       issuer: "Coursera",
       description: "Practical experience in C++ programming and object-oriented design principles",
       link: "#",
-      image: "/lovable-uploads/f4682ceb-3f27-4d51-89e6-abf10669cce4.png"
+      image: "f4682ceb-3f27-4d51-89e6-abf10669cce4.png"
     }
   ];
 
