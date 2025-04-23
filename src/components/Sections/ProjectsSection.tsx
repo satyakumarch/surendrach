@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
         "Parent communication portal"
       ],
       techStack: ["React", "Node.js", "MongoDB", "Express"],
-      github: "https://github.com/12205273s",
+      github: "#",
       live: "https://school-website-frontend.netlify.app/",
       preview: "/placeholder.svg"
     },
@@ -27,7 +27,7 @@ export const ProjectsSection = () => {
         "Rating and review system"
       ],
       techStack: ["React", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/12205273s",
+      github: "#",
       live: "https://food-delivery-demo.netlify.app",
       preview: "/placeholder.svg"
     },
@@ -41,7 +41,7 @@ export const ProjectsSection = () => {
         "Responsive design"
       ],
       techStack: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/12205273s",
+      github: "#",
       live: "https://calculator-app-demo.netlify.app",
       preview: "/placeholder.svg"
     },
@@ -55,7 +55,7 @@ export const ProjectsSection = () => {
         "Interactive learning materials"
       ],
       techStack: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/12205273s",
+      github: "#",
       live: "https://education-website-demo.netlify.app",
       preview: "/placeholder.svg"
     }
