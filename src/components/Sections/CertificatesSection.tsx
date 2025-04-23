@@ -10,13 +10,23 @@ export const CertificatesSection = () => {
       link: "https://coursera.org/verify/CG7M97D51764",
       image: "/lovable-uploads/f08752d3-da31-4c65-a2ac-cd8bda2af1b5.png"
     },
+    
     {
-      title: "Introduction to Hardware and Operating Systems",
-      issuer: "IBM & Coursera",
-      description: "In-depth knowledge of computer hardware components and operating system fundamentals",
-      link: "https://coursera.org/verify/6FYYL7K4V9C5",
-      image: "/lovable-uploads/b2be6d1c-5894-4047-ac6f-f860a54f8c5d.png"
+      title: "Introduction to Android Mobile Application Development",
+      issuer: "Meta & Coursera",
+      description: "Hands‑on fundamentals of building Android apps with Java/Kotlin, Android Studio, and common mobile paradigms.",
+      ink: "/* use the exact Coursera verify URL printed on your certificate */",
+      image: "/lovable-uploads/ram.png"
     },
+    {
+      title: "Ethical Hacking Essentials (EHE)",
+      issuer: "EC‑Council & Coursera",
+      description: "Core ethical‑hacking concepts: footprinting, vulnerability analysis, network scanning, enumeration, and basic exploit techniques.",
+      link: "/* use the exact Coursera verify URL printed on your certificate */",
+      image: "/lovable-uploads/shyam.png"
+    },
+  
+    
     {
       title: "Ethical Hacking Essentials (EHE)",
       issuer: "EC-Council & Coursera",
