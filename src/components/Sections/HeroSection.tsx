@@ -27,15 +27,21 @@ export const HeroSection = () => {
             Surendra Kumar Chaudhary
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl mb-6 font-display">
-            Full‑Stack Developer & Networking Enthusiast
+          Cyber Security 
           </h2>
           <p className="text-lg md:text-xl mb-10 max-w-2xl text-muted-foreground">
-            Crafting robust web apps & reliable networks.
+            I am a passionate Cyber Security Engineer with a strong foundation in 
+            ethical hacking, penetration testing, and network security. I thrive on 
+            challenges and am dedicated to enhancing digital security.
+            My goal is to leverage my skills to protect organizations from cyber threats
+            and contribute to a safer online environment.
+            <br />
+            <br />
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a
-              href="/resume.pdf" 
+              href="/surendra.pdf" 
               download
               className="px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors"
             >

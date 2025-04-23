@@ -64,10 +64,10 @@ export const CertificatesSection = () => {
                 <p className="text-muted-foreground mb-2">Issued by {cert.issuer}</p>
                 <p className="text-sm text-muted-foreground mb-4">{cert.description}</p>
                 
-                <div className="flex items-center text-primary text-sm font-medium">
+                {/* <div className="flex items-center text-primary text-sm font-medium">
                   <span>View Certificate</span>
                   <ExternalLink className="h-4 w-4 ml-1" />
-                </div>
+                </div> */}
               </div>
             </a>
           ))}

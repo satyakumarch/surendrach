@@ -81,12 +81,12 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">LinkedIn</h4>
                     <a
-                      href="https://linkedin.com/in/surendraku"
+                      href="https://www.linkedin.com/in/surendrakum/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      linkedin.com/in/surendraku
+                      linkedin.com/in/surendrakum/
                     </a>
                   </div>
                 </div>
@@ -98,12 +98,12 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">GitHub</h4>
                     <a
-                      href="https://github.com/12205273s"
+                      href="https://github.com/SurendrakumarChaudhary"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      github.com/12205273s
+                      github.com/SurendrakumarChaudhary
                     </a>
                   </div>
                 </div>

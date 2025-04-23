@@ -17,6 +17,8 @@ export const SkillsSection = () => {
       skills: [
         { name: "Java", icon: <Code className="h-5 w-5 text-primary" /> },
         { name: "C++", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "Python", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "HTML", icon: <Code className="h-5 w-5 text-primary" /> },
         { name: "JavaScript", icon: <Code className="h-5 w-5 text-primary" /> },
       ],
     },

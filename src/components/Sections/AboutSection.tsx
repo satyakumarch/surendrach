@@ -10,10 +10,10 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
           <div data-aos="fade-up" data-aos-delay="100">
             <p className="text-lg leading-relaxed mb-6">
-              Passionate Full-Stack Developer and networking specialist with expertise in Java, C++, and JavaScript. 
-              I specialize in building robust and scalable applications while leveraging DevOps tools like Docker and 
-              Kubernetes for seamless deployment. My background in networking gives me a unique perspective on building 
-              reliable systems that prioritize connectivity and performance.
+            Passionate Cybersecurity Specialist with expertise in Java, C++, and JavaScript. 
+              I specialize in building secure and scalable systems while leveraging DevOps tools like Docker and 
+              Kubernetes for seamless deployment. My background in cybersecurity gives me a unique perspective on building 
+              reliable systems that prioritize security and performance.
             </p>
           </div>
           

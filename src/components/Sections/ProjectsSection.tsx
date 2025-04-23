@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react";
 
@@ -15,6 +14,7 @@ export const ProjectsSection = () => {
       ],
       techStack: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/12205273s",
+      live: "https://school-website-frontend.netlify.app/",
       preview: "/placeholder.svg"
     },
     {
@@ -28,6 +28,7 @@ export const ProjectsSection = () => {
       ],
       techStack: ["React", "Firebase", "Tailwind CSS"],
       github: "https://github.com/12205273s",
+      live: "https://food-delivery-demo.netlify.app",
       preview: "/placeholder.svg"
     },
     {
@@ -41,6 +42,7 @@ export const ProjectsSection = () => {
       ],
       techStack: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/12205273s",
+      live: "https://calculator-app-demo.netlify.app",
       preview: "/placeholder.svg"
     },
     {
@@ -54,6 +56,7 @@ export const ProjectsSection = () => {
       ],
       techStack: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/12205273s",
+      live: "https://education-website-demo.netlify.app",
       preview: "/placeholder.svg"
     }
   ];
@@ -110,6 +113,15 @@ export const ProjectsSection = () => {
                 >
                   <Github className="h-4 w-4" />
                   <span>GitHub Repository</span>
+                </a>
+                <a 
+                  href={project.live}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-primary hover:text-primary/80 transition-colors"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  <span>Live Demo</span>
                 </a>
               </div>
             </div>
