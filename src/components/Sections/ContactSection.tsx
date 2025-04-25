@@ -51,10 +51,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <a
-                      href="mailto:surendrakumarc2001@gmail.com"
+                      href="mailto:kuldeeppathak8008@gmail.com"
                       className="text-primary hover:underline"
                     >
-                      surendrakumarc2001@gmail.com
+                      kuldeeppathak8008@gmail.com
                     </a>
                   </div>
                 </div>
@@ -66,10 +66,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Phone / WhatsApp</h4>
                     <a
-                      href="tel:+919555498916"
+                      href="tel:+917307833821"
                       className="text-primary hover:underline"
                     >
-                      +91 95554 98916
+                      +91 7307833821
                     </a>
                   </div>
                 </div>
@@ -81,12 +81,12 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">LinkedIn</h4>
                     <a
-                      href="https://www.linkedin.com/in/surendrakum/"
+                      href="https://www.linkedin.com/in/kuldeep-pathak8008"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      linkedin.com/in/surendrakum/
+                      linkedin.com/in/kuldeep-pathak8008
                     </a>
                   </div>
                 </div>
@@ -98,12 +98,12 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">GitHub</h4>
                     <a
-                      href="https://github.com/SurendrakumarChaudhary"
+                      href="https://github.com/kuldeeppathak8008"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      github.com/SurendrakumarChaudhary
+                      github.com/kuldeeppathak8008
                     </a>
                   </div>
                 </div>

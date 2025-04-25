@@ -27,11 +27,11 @@ export const HeroSection = () => {
             Kuldeep Pathak
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl mb-6 font-display">
-            Computer Science Engineer
+            Computer Science Engineering Student
           </h2>
           <p className="text-lg md:text-xl mb-10 max-w-2xl text-muted-foreground">
-            A passionate Computer Science Engineering student with expertise in C, C++, Java, and web technologies.
-            Focused on building robust applications and solving complex problems.
+            A dedicated Computer Science Engineering student with expertise in C, C++, Java, and web technologies.
+            Passionate about cybersecurity and ethical hacking with hands-on experience in various security tools.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">

@@ -1,13 +1,5 @@
-import {
-  Code,
-  Container,
-  Database,
-  GitBranch,
-  Monitor,
-  Clock,
-  LineChart,
-  Repeat,
-} from "lucide-react";
+
+import { Code, Database, Monitor, Clock, LineChart, Repeat } from "lucide-react";
 
 export const SkillsSection = () => {
   const skillCategories = [
@@ -20,7 +12,7 @@ export const SkillsSection = () => {
       ],
     },
     {
-      title: "Frameworks",
+      title: "Frontend",
       skills: [
         { name: "HTML", icon: <Code className="h-5 w-5 text-primary" /> },
         { name: "CSS", icon: <Code className="h-5 w-5 text-primary" /> },
@@ -32,6 +24,7 @@ export const SkillsSection = () => {
         { name: "MySQL", icon: <Database className="h-5 w-5 text-primary" /> },
         { name: "Kali Linux", icon: <Monitor className="h-5 w-5 text-primary" /> },
         { name: "Metasploit", icon: <Monitor className="h-5 w-5 text-primary" /> },
+        { name: "Burp Suite", icon: <Monitor className="h-5 w-5 text-primary" /> },
       ],
     },
     {
@@ -52,7 +45,7 @@ export const SkillsSection = () => {
           Skills
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
           {skillCategories.map((category, index) => (
             <div
               key={category.title}

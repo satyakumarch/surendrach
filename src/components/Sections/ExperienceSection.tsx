@@ -14,7 +14,7 @@ export const ExperienceSection = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
               <div>
                 <h3 className="text-xl font-bold">Ethical Hacking + Cybersecurity</h3>
-                <p className="text-primary font-medium">Professional Internship</p>
+                <p className="text-primary font-medium">CyberForge Academy</p>
               </div>
               <span className="text-muted-foreground mt-2 md:mt-0">June 2024 - July 2024</span>
             </div>

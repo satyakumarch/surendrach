@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Code, Database, GitBranch, Github, ExternalLink, Server } from "lucide-react";
+import { Code, Database, Github, ExternalLink } from "lucide-react";
 
 export const ProjectsSection = () => {
   const projects = [
