@@ -1,3 +1,4 @@
+
 import { ArrowDown } from "lucide-react";
 
 export const HeroSection = () => {
@@ -18,19 +19,20 @@ export const HeroSection = () => {
           {/* Text Content - Left side */}
           <div className="md:w-3/5 md:pr-6 md:text-left text-center" data-aos="fade-right">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Kuldeep Pathak
+              Surendra Kumar Chaudhary
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-3xl mb-6 font-display">
-              Cyber Security
+              Computer Science Engineer
             </h2>
             <p className="text-lg md:text-xl mb-10 max-w-2xl text-muted-foreground md:mx-0 mx-auto">
-              A dedicated Computer Science Engineering student with expertise in C, C++, Java, and web technologies.
-              Passionate about cybersecurity and ethical hacking with hands-on experience in various security tools.
+              A dedicated Computer Science Engineering student with expertise in Java, C++, JavaScript, 
+              and diverse tools including Git, Docker, Kubernetes, and Firebase. Passionate about building 
+              robust applications and enhancing network configurations.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:justify-start justify-center">
               <a
-                href="/Kuldeep.pdf"
+                href="/Surendra.pdf"
                 download
                 className="px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors"
               >
@@ -49,11 +51,11 @@ export const HeroSection = () => {
           {/* Image - Right side */}
           <div className="md:w-2/5 flex justify-center md:justify-end" data-aos="fade-left">
             <div className="rounded-full overflow-hidden w-48 h-48 md:w-64 md:h-64 border-4 border-primary shadow-xl">
-            <img
-  src="kuldip1.jpg"
-  alt="Kuldeep Pathak"
-  className="w-full h-full object-cover"
-/>
+              <img
+                src="lovable-uploads/e3bfe8a1-5098-4e14-b77b-224753a8eb92.png"
+                alt="Surendra Kumar Chaudhary"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

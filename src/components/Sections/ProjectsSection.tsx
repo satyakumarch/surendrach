@@ -1,38 +1,28 @@
 
 import { useState } from "react";
-import { Code, Database, Github, ExternalLink } from "lucide-react";
+import { Code, Database, Github, ExternalLink, Globe } from "lucide-react";
 
 export const ProjectsSection = () => {
   const projects = [
     {
-      title: "University Management System",
-      description: "A comprehensive system to manage students, faculty, and courses",
+      title: "Education Website",
+      description: "A comprehensive educational platform for course management and learning",
       features: [
-        "Responsive frontend using HTML & CSS",
-        "User authentication with PHP & MySQL",
-        "Database schemas for students, faculty, and courses",
-        "Role-based access control"
+        "Welcomes users with an overview of the platform and encourages exploration",
+        "Highlights featured courses, benefits, banners, and testimonials",
+        "Showcases all available courses with descriptions, prices, and enrollment options",
+        "Allows users to search and filter courses based on interests",
+        "Introduces team members and their expertise to build trust",
+        "Displays team profiles and achievements using HTML and CSS",
+        "Provides a contact form for questions, support, and feedback",
+        "Shows essential contact details (email, phone, social media)",
+        "Includes JavaScript form validation to ensure correct input"
       ],
-      techStack: ["HTML", "CSS", "PHP", "MySQL"],
-      date: "January 2023",
+      techStack: ["HTML", "CSS", "JavaScript"],
+      date: "March 2023",
       preview: "/placeholder.svg",
-      github: "https://github.com/kuldeeppathak8008",
+      github: "https://github.com/12205273s",
       live: "#",
-    },
-    {
-      title: "Car Rental System",
-      description: "Full-featured car rental management system",
-      features: [
-        "Responsive user interface for car booking",
-        "User authentication and role-based access",
-        "MySQL database for users, cars, and bookings",
-        "Real-time car availability tracking"
-      ],
-      techStack: ["Java", "HTML", "CSS", "MySQL"],
-      date: "February 2025",
-      preview: "/placeholder.svg",
-      github: "https://github.com/kuldeeppathak8008",
-      live: "#"
     }
   ];
 

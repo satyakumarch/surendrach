@@ -1,38 +1,37 @@
 
-import { Code, Database, Monitor, Clock, LineChart, Repeat } from "lucide-react";
+import { Code, Database, Monitor, Clock, LineChart, Repeat, Github, Globe, Shield } from "lucide-react";
 
 export const SkillsSection = () => {
   const skillCategories = [
     {
       title: "Languages",
       skills: [
-        { name: "C", icon: <Code className="h-5 w-5 text-primary" /> },
-        { name: "C++", icon: <Code className="h-5 w-5 text-primary" /> },
         { name: "Java", icon: <Code className="h-5 w-5 text-primary" /> },
-      ],
-    },
-    {
-      title: "Frontend",
-      skills: [
-        { name: "HTML", icon: <Code className="h-5 w-5 text-primary" /> },
-        { name: "CSS", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "C++", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "JavaScript", icon: <Code className="h-5 w-5 text-primary" /> },
       ],
     },
     {
       title: "Tools/Platforms",
       skills: [
+        { name: "Git", icon: <Github className="h-5 w-5 text-primary" /> },
+        { name: "Docker", icon: <Globe className="h-5 w-5 text-primary" /> },
+        { name: "Kubernetes", icon: <Globe className="h-5 w-5 text-primary" /> },
+        { name: "Firebase", icon: <Shield className="h-5 w-5 text-primary" /> },
+      ],
+    },
+    {
+      title: "Databases",
+      skills: [
         { name: "MySQL", icon: <Database className="h-5 w-5 text-primary" /> },
-        { name: "Kali Linux", icon: <Monitor className="h-5 w-5 text-primary" /> },
-        { name: "Metasploit", icon: <Monitor className="h-5 w-5 text-primary" /> },
-        { name: "Burp Suite", icon: <Monitor className="h-5 w-5 text-primary" /> },
+        { name: "MongoDB", icon: <Database className="h-5 w-5 text-primary" /> },
       ],
     },
     {
       title: "Soft Skills",
       skills: [
-        { name: "Problem-Solving", icon: <Clock className="h-5 w-5 text-primary" /> },
-        { name: "Team Player", icon: <LineChart className="h-5 w-5 text-primary" /> },
-        { name: "Project Management", icon: <Repeat className="h-5 w-5 text-primary" /> },
+        { name: "Time Management", icon: <Clock className="h-5 w-5 text-primary" /> },
+        { name: "Project Management", icon: <LineChart className="h-5 w-5 text-primary" /> },
         { name: "Adaptability", icon: <Repeat className="h-5 w-5 text-primary" /> },
       ],
     },

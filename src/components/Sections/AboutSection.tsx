@@ -10,10 +10,11 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
           <div data-aos="fade-up" data-aos-delay="100">
             <p className="text-lg leading-relaxed mb-6">
-            Passionate Cybersecurity Specialist with expertise in Java, C++, and JavaScript. 
-              I specialize in building secure and scalable systems while leveraging DevOps tools like Docker and 
-              Kubernetes for seamless deployment. My background in cybersecurity gives me a unique perspective on building 
-              reliable systems that prioritize security and performance.
+              Computer Science Engineering student with expertise in Java, C++, and JavaScript. 
+              I have experience with tools and platforms like Git, Docker, Kubernetes, and Firebase. 
+              My background includes database management with MySQL and MongoDB, along with 
+              practical experience in network configuration and management during my internship at 
+              SIBSU WIFI PRIVATE COMPANY.
             </p>
           </div>
           
@@ -25,7 +26,7 @@ export const AboutSection = () => {
                 <FlagTriangleRight className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <span className="font-medium">Location:</span> 
-                  <p className="text-muted-foreground">Lucknow, Amethi| Roots in Uttarpradesh,India</p>
+                  <p className="text-muted-foreground">Punjab, India | Roots in Kapilvastu, Nepal</p>
                 </div>
               </div>
               
@@ -33,7 +34,7 @@ export const AboutSection = () => {
                 <Languages className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <span className="font-medium">Languages Spoken:</span> 
-                  <p className="text-muted-foreground">English, Hindi</p>
+                  <p className="text-muted-foreground">English, Hindi, Nepali</p>
                 </div>
               </div>
             </div>

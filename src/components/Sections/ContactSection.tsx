@@ -51,10 +51,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <a
-                      href="mailto:kuldeeppathak8008@gmail.com"
+                      href="mailto:surendrakumarc2001@gmail.com"
                       className="text-primary hover:underline"
                     >
-                      kuldeeppathak8008@gmail.com
+                      surendrakumarc2001@gmail.com
                     </a>
                   </div>
                 </div>
@@ -66,10 +66,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Phone / WhatsApp</h4>
                     <a
-                      href="tel:+917307833821"
+                      href="tel:+919555498916"
                       className="text-primary hover:underline"
                     >
-                      +91 7307833821
+                      +91 9555498916
                     </a>
                   </div>
                 </div>
@@ -81,12 +81,12 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">LinkedIn</h4>
                     <a
-                      href="https://www.linkedin.com/in/kuldeep-pathak8008"
+                      href="https://www.linkedin.com/in/surendraku"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      linkedin.com/in/kuldeep-pathak8008
+                      linkedin.com/in/surendraku
                     </a>
                   </div>
                 </div>
@@ -98,12 +98,12 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">GitHub</h4>
                     <a
-                      href="https://github.com/kuldeeppathak8008"
+                      href="https://github.com/12205273s"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      github.com/kuldeeppathak8008
+                      github.com/12205273s
                     </a>
                   </div>
                 </div>
