@@ -1,4 +1,6 @@
-import { Code, Database, GitBranch, Server } from "lucide-react";
+
+import { useState } from "react";
+import { Code, Database, GitBranch, Github, ExternalLink, Server } from "lucide-react";
 
 export const ProjectsSection = () => {
   const projects = [
@@ -13,7 +15,9 @@ export const ProjectsSection = () => {
       ],
       techStack: ["HTML", "CSS", "PHP", "MySQL"],
       date: "January 2023",
-      preview: "/placeholder.svg"
+      preview: "/placeholder.svg",
+      github: "https://github.com/kuldeeppathak8008/university-management",
+      live: "https://university-management-demo.netlify.app"
     },
     {
       title: "Car Rental System",
@@ -26,7 +30,9 @@ export const ProjectsSection = () => {
       ],
       techStack: ["Java", "HTML", "CSS", "MySQL"],
       date: "February 2025",
-      preview: "/placeholder.svg"
+      preview: "/placeholder.svg",
+      github: "https://github.com/kuldeeppathak8008/car-rental",
+      live: "https://car-rental-demo.netlify.app"
     }
   ];
 
