@@ -16,8 +16,8 @@ export const ProjectsSection = () => {
       techStack: ["HTML", "CSS", "PHP", "MySQL"],
       date: "January 2023",
       preview: "/placeholder.svg",
-      github: "https://github.com/kuldeeppathak8008/university-management",
-      live: "https://university-management-demo.netlify.app"
+      github: "https://github.com/kuldeeppathak8008",
+      live: "#",
     },
     {
       title: "Car Rental System",
@@ -31,8 +31,8 @@ export const ProjectsSection = () => {
       techStack: ["Java", "HTML", "CSS", "MySQL"],
       date: "February 2025",
       preview: "/placeholder.svg",
-      github: "https://github.com/kuldeeppathak8008/car-rental",
-      live: "https://car-rental-demo.netlify.app"
+      github: "https://github.com/kuldeeppathak8008",
+      live: "#"
     }
   ];
 

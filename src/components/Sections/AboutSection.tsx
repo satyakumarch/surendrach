@@ -25,7 +25,7 @@ export const AboutSection = () => {
                 <FlagTriangleRight className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <span className="font-medium">Location:</span> 
-                  <p className="text-muted-foreground">Punjab, India | Roots in Kapilvastu, Nepal</p>
+                  <p className="text-muted-foreground">Lucknow, Amethi| Roots in Uttarpradesh,India</p>
                 </div>
               </div>
               
@@ -33,7 +33,7 @@ export const AboutSection = () => {
                 <Languages className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <span className="font-medium">Languages Spoken:</span> 
-                  <p className="text-muted-foreground">English, Hindi, Nepali</p>
+                  <p className="text-muted-foreground">English, Hindi</p>
                 </div>
               </div>
             </div>

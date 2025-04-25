@@ -9,12 +9,12 @@ export const Footer = () => {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-center md:text-left mb-4 md:mb-0">
-            © {currentYear} Surendra Kumar Chaudhary. All rights reserved.
+            © {currentYear} Kuldeep phatak. All rights reserved.
           </p>
           
           <div className="flex space-x-4">
             <a
-              href="https://www.linkedin.com/in/surendrakum/"
+              href="https://www.linkedin.com/in/kuldeep-pathak8008/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/20 transition-colors"
@@ -23,7 +23,7 @@ export const Footer = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com/SurendrakumarChaudhary"
+              href="https://github.com/kuldeeppathak8008"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/20 transition-colors"
