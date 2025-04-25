@@ -1,4 +1,3 @@
-
 import {
   Code,
   Container,
@@ -15,41 +14,32 @@ export const SkillsSection = () => {
     {
       title: "Languages",
       skills: [
-        { name: "Java", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "C", icon: <Code className="h-5 w-5 text-primary" /> },
         { name: "C++", icon: <Code className="h-5 w-5 text-primary" /> },
-        { name: "Python", icon: <Code className="h-5 w-5 text-primary" /> },
-        { name: "HTML", icon: <Code className="h-5 w-5 text-primary" /> },
-        { name: "JavaScript", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "Java", icon: <Code className="h-5 w-5 text-primary" /> },
       ],
     },
     {
-      title: "Tools / Platforms",
+      title: "Frameworks",
       skills: [
-        { name: "Git", icon: <GitBranch className="h-5 w-5 text-primary" /> },
-        { name: "Docker", icon: <Container className="h-5 w-5 text-primary" /> },
-        { name: "Kubernetes", icon: <Container className="h-5 w-5 text-primary" /> },
-        { name: "Firebase", icon: <Database className="h-5 w-5 text-primary" /> },
+        { name: "HTML", icon: <Code className="h-5 w-5 text-primary" /> },
+        { name: "CSS", icon: <Code className="h-5 w-5 text-primary" /> },
       ],
     },
     {
-      title: "Databases",
+      title: "Tools/Platforms",
       skills: [
         { name: "MySQL", icon: <Database className="h-5 w-5 text-primary" /> },
-        { name: "MongoDB", icon: <Database className="h-5 w-5 text-primary" /> },
-      ],
-    },
-    {
-      title: "Operating Systems",
-      skills: [
-        { name: "Windows", icon: <Monitor className="h-5 w-5 text-primary" /> },
-        { name: "Linux", icon: <Monitor className="h-5 w-5 text-primary" /> },
+        { name: "Kali Linux", icon: <Monitor className="h-5 w-5 text-primary" /> },
+        { name: "Metasploit", icon: <Monitor className="h-5 w-5 text-primary" /> },
       ],
     },
     {
       title: "Soft Skills",
       skills: [
-        { name: "Time Management", icon: <Clock className="h-5 w-5 text-primary" /> },
-        { name: "Project Management", icon: <LineChart className="h-5 w-5 text-primary" /> },
+        { name: "Problem-Solving", icon: <Clock className="h-5 w-5 text-primary" /> },
+        { name: "Team Player", icon: <LineChart className="h-5 w-5 text-primary" /> },
+        { name: "Project Management", icon: <Repeat className="h-5 w-5 text-primary" /> },
         { name: "Adaptability", icon: <Repeat className="h-5 w-5 text-primary" /> },
       ],
     },

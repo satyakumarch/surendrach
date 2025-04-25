@@ -7,21 +7,21 @@ export const EducationSection = () => {
       degree: "B.Tech, Computer Science & Engineering",
       institution: "Lovely Professional University, Punjab",
       period: "Aug 2022 – Present",
-      grade: "CGPA 5.25",
+      grade: "CGPA 6.04",
       icon: <GraduationCap className="h-6 w-6 text-primary" />
     },
     {
       degree: "Intermediate (10+2)",
-      institution: "Shree Janachetana Mavi, Kapilvastu, Nepal",
-      period: "Apr 2020 – Mar 2022",
-      grade: "83 %",
+      institution: "SJS Public School Gauriganj, Amethi",
+      period: "Aug 2020 – Jul 2022",
+      grade: "69.8%",
       icon: <School className="h-6 w-6 text-primary" />
     },
     {
-      degree: "SEE (Grade 10)",
-      institution: "Shree Janachetana Mavi, Kapilvastu, Nepal",
-      period: "Apr 2019",
-      grade: "85 %",
+      degree: "Matriculation",
+      institution: "Sapien Secondary School Amethi",
+      period: "Apr 2018 – Jul 2020",
+      grade: "76.8%",
       icon: <School className="h-6 w-6 text-primary" />
     }
   ];

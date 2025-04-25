@@ -1,62 +1,31 @@
-import { useState } from "react";
-import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react";
+import { Code, Database, GitBranch, Server } from "lucide-react";
 
 export const ProjectsSection = () => {
   const projects = [
     {
-      title: "School Management System",
-      description: "A comprehensive platform for managing educational institutions",
+      title: "University Management System",
+      description: "A comprehensive system to manage students, faculty, and courses",
       features: [
-        "Student enrollment and attendance tracking",
-        "Grade management and report generation",
-        "Teacher and staff management",
-        "Parent communication portal"
+        "Responsive frontend using HTML & CSS",
+        "User authentication with PHP & MySQL",
+        "Database schemas for students, faculty, and courses",
+        "Role-based access control"
       ],
-      techStack: ["React", "Node.js", "MongoDB", "Express"],
-      github: "#",
-      live: "https://school-website-frontend.netlify.app/",
+      techStack: ["HTML", "CSS", "PHP", "MySQL"],
+      date: "January 2023",
       preview: "/placeholder.svg"
     },
     {
-      title: "Food Website",
-      description: "Online food ordering and delivery platform",
+      title: "Car Rental System",
+      description: "Full-featured car rental management system",
       features: [
-        "Restaurant listings and menu management",
-        "Real-time order tracking",
-        "User authentication and profiles",
-        "Rating and review system"
+        "Responsive user interface for car booking",
+        "User authentication and role-based access",
+        "MySQL database for users, cars, and bookings",
+        "Real-time car availability tracking"
       ],
-      techStack: ["React", "Firebase", "Tailwind CSS"],
-      github: "#",
-      live: "https://food-delivery-demo.netlify.app",
-      preview: "/placeholder.svg"
-    },
-    {
-      title: "Calculator App",
-      description: "Modern calculator with advanced features",
-      features: [
-        "Basic arithmetic operations",
-        "Scientific calculator functions",
-        "History tracking",
-        "Responsive design"
-      ],
-      techStack: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      live: "https://calculator-app-demo.netlify.app",
-      preview: "/placeholder.svg"
-    },
-    {
-      title: "Education Website",
-      description: "A platform for educational resources",
-      features: [
-        "Course catalog with search functionality",
-        "User authentication and profiles",
-        "Progress tracking",
-        "Interactive learning materials"
-      ],
-      techStack: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      live: "https://education-website-demo.netlify.app",
+      techStack: ["Java", "HTML", "CSS", "MySQL"],
+      date: "February 2025",
       preview: "/placeholder.svg"
     }
   ];

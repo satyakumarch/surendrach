@@ -17,31 +17,26 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center text-center" data-aos="fade-up">
           <div className="mb-8 rounded-full overflow-hidden w-48 h-48 border-4 border-primary shadow-xl">
             <img 
-              src="2669d1f7-1fb6-4e33-a5f0-5d4d49e67910.png"
-              alt="Surendra Kumar Chaudhary"
+              src="lovable-uploads/a3ad7381-e8be-4b38-bcb0-a7c74db6beea.png"
+              alt="Kuldeep Pathak"
               className="w-full h-full object-cover"
             />
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-            Surendra Kumar Chaudhary
+            Kuldeep Pathak
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl mb-6 font-display">
-          Cyber Security 
+            Computer Science Engineer
           </h2>
           <p className="text-lg md:text-xl mb-10 max-w-2xl text-muted-foreground">
-            I am a passionate Cyber Security Engineer with a strong foundation in 
-            ethical hacking, penetration testing, and network security. I thrive on 
-            challenges and am dedicated to enhancing digital security.
-            My goal is to leverage my skills to protect organizations from cyber threats
-            and contribute to a safer online environment.
-            <br />
-            <br />
+            A passionate Computer Science Engineering student with expertise in C, C++, Java, and web technologies.
+            Focused on building robust applications and solving complex problems.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a
-              href="/surendra.pdf" 
+              href="/resume.pdf" 
               download
               className="px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors"
             >
@@ -58,7 +53,6 @@ export const HeroSection = () => {
         </div>
       </div>
       
-      {/* Scroll down indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <a href="#about" aria-label="Scroll down">
           <ArrowDown className="h-6 w-6 text-primary" />
