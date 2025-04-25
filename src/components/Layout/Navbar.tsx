@@ -46,8 +46,8 @@ export const Navbar = () => {
             href="#"
             className="text-xl font-bold text-foreground flex items-center"
           >
-            <span className="text-primary">Kuldeep</span>
-            <span className="text-xl ml-1">Pathak</span>
+            <span className="text-primary">Surendra</span>
+            <span className="text-xl ml-1">kumar</span>
           </a>
 
           {/* Desktop Navigation */}

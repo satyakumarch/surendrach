@@ -22,7 +22,7 @@ export const HeroSection = () => {
               Surendra Kumar Chaudhary
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-3xl mb-6 font-display">
-              Computer Science Engineer
+              Cyber Security
             </h2>
             <p className="text-lg md:text-xl mb-10 max-w-2xl text-muted-foreground md:mx-0 mx-auto">
               A dedicated Computer Science Engineering student with expertise in Java, C++, JavaScript, 
@@ -52,7 +52,7 @@ export const HeroSection = () => {
           <div className="md:w-2/5 flex justify-center md:justify-end" data-aos="fade-left">
             <div className="rounded-full overflow-hidden w-48 h-48 md:w-64 md:h-64 border-4 border-primary shadow-xl">
               <img
-                src="lovable-uploads/e3bfe8a1-5098-4e14-b77b-224753a8eb92.png"
+                src="sur.png"
                 alt="Surendra Kumar Chaudhary"
                 className="w-full h-full object-cover"
               />
