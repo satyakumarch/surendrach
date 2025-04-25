@@ -10,11 +10,12 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
           <div data-aos="fade-up" data-aos-delay="100">
             <p className="text-lg leading-relaxed mb-6">
-              Computer Science Engineering student with expertise in Java, C++, and JavaScript. 
-              I have experience with tools and platforms like Git, Docker, Kubernetes, and Firebase. 
-              My background includes database management with MySQL and MongoDB, along with 
-              practical experience in network configuration and management during my internship at 
-              SIBSU WIFI PRIVATE COMPANY.
+            Computer Science Engineering student with a strong focus on Cybersecurity. 
+              I have expertise in identifying vulnerabilities, penetration testing, and implementing 
+              security measures to safeguard systems. My experience includes working with tools like 
+              Wireshark, Metasploit, and Burp Suite, along with proficiency in secure coding practices 
+              using Java, C++, and Python. During my internship at SIBSU WIFI PRIVATE COMPANY, 
+              I gained hands-on experience in network security, threat analysis, and incident response.
             </p>
           </div>
           
